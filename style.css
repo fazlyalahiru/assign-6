@@ -1,0 +1,74 @@
+/* Card css starts here */
+.card {
+    border: 0;
+}
+
+ol,
+ul {
+    padding-left: 1rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+}
+
+/* Arrow icon */
+#arrow-icon {
+    color: #EB5757;
+    background: #fdf3f3;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Modla customization */
+@media screen and (max-width: 786px) {
+    #pricing-middle-col {
+        margin: 5px 0;
+    }
+
+    #pricing-middle-col {
+        margin: 10px 0;
+    }
+    #modal-card-section{
+        margin: 10px 0px 20px 10px;
+    }
+    #modal-left{
+        margin: 20px 0px 10px 12px;
+    }
+
+    #cards-container{
+       width: 90%;
+       margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 787px) {
+    .modal-dialog {
+        max-width: 70%;
+        /* New width for default modal */
+    }
+
+    #pricing-middle-col {
+        margin: 0 5px;
+    }
+}
+
+#modal-left {
+    background-color: #fdf3f3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal-content {
+    padding: 8px;
+}
+
+.pricing-text {
+    padding: 10px 0px;
+}
+
+.position-absolute {
+    right: 0 !important;
+}
